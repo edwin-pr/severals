@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bing Bang Hotel - Services</title>
+	<link rel="stylesheet" href="services.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Our Services</h1>
+		<div class="service">
+			<div class="service-item" onclick="openServiceModal('room-service')">
+				<div class="service-icon">
+					<i class="fas fa-utensils"></i>
+				</div
+                <div class="service-title">
+                    Room Service
+                </div>
+                <div class="service-description">
+                    Enjoy delicious meals from the comfort of your room with our 24/7 room service.
+                </div>
+            </div>
+            <div class="service-item" onclick="openServiceModal('spa')">
+                <div class="service-icon">
+                    <i class="fas fa-spa"></i>
+                </div>
+                <div class="service-title">
+                    Spa
+                </div>
+                <div class="service-description">
+                    Relax and rejuvenate your body and mind with our range of spa treatments and massages.
+                </div>
+            </div>
+            <div class="service-item" onclick="openServiceModal('fitness-center')">
+                <div class="service-icon">
+                    <i class="fas fa-dumbbell"></i>
+                </div>
+                <div class="service-title">
+                    Fitness Center
+                </div>
+                <div class="service-description">
+                    Stay fit and healthy during your stay with our fully equipped fitness center.
+                </div>
+            </div>
+            <div class="service-item" onclick="openServiceModal('pool')">
+                <div class="service-icon">
+                    <i class="fas fa-swimming-pool"></i>
+                </div>
+                <div class="service-title">
+                    Pool
+                </div>
+                <div class="service-description">
+                    Cool off and soak up the sun in our outdoor pool with stunning views of the city.
+                </div>
+            </div>
+            <div class="service-item" onclick="openServiceModal('conference-room')">
+                <div class="service-icon">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+                <div class="service-title">
+                    Conference Room
+                </div>
+                <div class="service-description">
+                    Host successful meetings and events in our modern and fully equipped conference room.
+                </div>
+            </div>
+            <div class="service-item" onclick="openServiceModal('laundry')">
+                <div class="service-icon">
+                    <i class="fas fa-tshirt"></i>
+                </div>
+                <div class="service-title">
+                    Laundry
+                </div>
+                <div class="service-description">
+                    Stay fresh and clean with our laundry and dry cleaning services.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="service-modal" id="room-service-modal">
+        <div class="service-modal-content">
+            <span class="service-modal-close" onclick="closeServiceModal()">&times;</span>
+            <div class="service-modal-title">Room Service</div>
+            <div class="service-modal-description">
+                <p>Enjoy delicious meals from the comfort of your room with our 24/7 room service. Our extensive menu offers a variety of local and international dishes, as well as snacks and beverages.</p>
+                <p>To order, simply dial the room service number from your room phone and our friendly staff will take care of the rest. Bon appétit!</p>
+            </div>
+        </div>
+    </div>
+    <div class="service-modal" id="spa-modal">
+        <div class="service-modal-content">
+            <span class="service-modal-close" onclick="closeServiceModal()">&times;</span>
+            <div class="service-modal-title">Spa</div>
+            <div class="service-modal-description">
+                <p>Relax and rejuvenate your body and mind with our range of spa treatments and massages. Our experienced therapists will help you choose the perfect treatment to suit your needs, whether you want to de-stress, detoxify, or simply indulge in some pampering.</p>
+                <p>Our spa facilities include a sauna, steam room, jacuzzi, and relaxation area. We also offer beauty treatments such as facials, manicures, and pedicures. Treat yourself to a luxurious spa experience at Bing Bang Hotel.</p>
+            </div>
+        </div>
+    </div>
+                <div class="service-modal" id="fitness-center-modal">
+                    <div class="service-modal-content">
+                        <span class="service-modal-close" onclick="closeServiceModal()">&times;</span>
+                        <div class="service-modal-title">Fitness Center</div>
+                        <div class="service-modal-description">
+                            <p>Stay fit and healthy during your stay with our fully equipped fitness center. Our state-of-the-art facilities include cardio and strength training equipment, as well as free weights and exercise mats.</p>
+                            <p>We also offer group fitness classes such as yoga, Pilates, and spinning. Personal training sessions are available upon request. Our fitness center is open 24/7, so you can work out whenever it suits you.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-modal" id="pool-modal">
+                    <div class="service-modal-content">
+                        <span class="service-modal-close" onclick="closeServiceModal()">&times;</span>
+                        <div class="service-modal-title">Pool</div>
+                        <div class="service-modal-description">
+                            <p>Cool off and soak up the sun in our outdoor pool with stunning views of the city. Our pool is heated and open year-round, so you can enjoy a refreshing swim no matter the season.</p>
+                            <p>We also offer poolside food and beverage service, so you can sip on a cocktail or enjoy a snack while you relax. Towels are provided, so all you need to bring is your swimsuit.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-modal" id="conference-room-modal">
+                    <div class="service-modal-content">
+                        <span class="service-modal-close" onclick="closeServiceModal()">&times;</span>
+                        <div class="service-modal-title">Conference Room</div>
+                        <div class="service-modal-description">
+                            <p>Host successful meetings and events in our modern and fully equipped conference room. Our room can accommodate up to 50 people and is equipped with state-of-the-art audiovisual equipment and high-speed internet.</p>
+                            <p>We also offer catering services, so you can provide your guests with delicious food and beverages. Our professional staff will help you plan and execute a flawless event.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-modal" id="laundry-modal">
+                    <div class="service-modal-content">
+                        <span class="service-modal-close" onclick="closeServiceModal()">&times;</span>
+                        <div class="service-modal-title">Laundry</div>
+                        <div class="service-modal-description">
+                            <p>Stay fresh and clean with our laundry and dry cleaning services. Our efficient and reliable staff will take care of all your laundry needs, including washing, drying, and ironing.</p>
+                            <p>We also offer same-day dry cleaning and pressing services, so you can always look your best. Our laundry services are available 24/7, so you can drop off and pick up your items whenever it's convenient for you.</p>
+                        </div>
+                    </div>
+                </div>
+                        
+            </div>
+                        <script>
+                            // Get the modal
+                            var modals = document.getElementsByClassName("service-modal");
+                        
+                            // Get the button that opens the modal
+                            var buttons = document.getElementsByClassName("service-button");
+                        
+                            // Get the <span> element that closes the modal
+                            var closeButtons = document.getElementsByClassName("service-modal-close");
+                        
+                            // When the user clicks on the button, open the modal
+                            for (var i = 0; i < buttons.length; i++) {
+                                buttons[i].onclick = function() {
+                                    var modalId = this.getAttribute("data-modal");
+                                    var modal = document.getElementById(modalId);
+                                    modal.style.display = "block";
+                                }
+                            }
+                        
+                            // When the user clicks on <span> (x), close the modal
+                            for (var i = 0; i < closeButtons.length; i++) {
+                                closeButtons[i].onclick = function() {
+                                    var modal = this.parentElement.parentElement;
+                                    modal.style.display = "none";
+                                }
+                            }
+                        
+                            // When the user clicks anywhere outside of the modal, close it
+                            window.onclick = function(event) {
+                                for (var i = 0; i < modals.length; i++) {
+                                    if (event.target == modals[i]) {
+                                        modals[i].style.display = "none";
+                                    }
+                                }
+                            }
+                        </script>
+     </body>
+</html> 
+                
+    

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bing Bang Hotel - Rooms</title>
+  <style>
+    *{
+        background-image: url(vector.avif);
+    }
+     /* Header styles */
+  header {
+      background-color: #333;
+      color: #ffffff;
+      padding: 20px;
+  }
+  
+  header h1 {
+      margin: 0;
+      font-size: 36px;
+  }
+  
+  nav ul.nav-bar {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav li {
+      display: inline-block;
+      margin-right: 20px;
+  }
+  
+  nav li:last-child {
+      margin-right: 0;
+  }
+  
+  nav a {
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  nav a:hover {
+      color: #fff;
+      text-decoration: underline;
+  }
+    /* Container styles */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    /* Room card styles */
+    .card {
+      width: 30%;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .card h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .card ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .card li {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+
+    .card button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #333;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .card button:hover {
+      background-color: #555;
+    }
+  </style>
+  <script src="room.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="hotel.html">Home</a></li>
+        <li><a href="#">Rooms</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Our Rooms</h1>
+    <div class="container">
+      <div class="card">
+        <img src="standardroom.jpg" alt="Room Image">
+        <div class="card-body">
+          <h2>Standard Room</h2>
+          <p>Our standard rooms are perfect for business travelers or couples on a budget.</p>
+          <ul>
+            <li>Queen bed</li>
+            <li>Free Wi-Fi</li>
+            <li>Flat-screen TV</li>
+            <li>Air conditioning</li>
+          </ul>
+          <button>Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="deluxe.avif" alt="Room Image">
+        <div class="card-body">
+          <h2>Deluxe Room</h2>
+          <p>Our deluxe rooms offer a bit more space and luxury for your stay.</p>
+          <ul>
+            <li>King bed</li>
+            <li>Free Wi-Fi</li>
+            <li>Flat-screen TV</li>
+            <li>Air conditioning</li>
+            <li>Mini fridge</li>
+            <li>Bathrobe and slippers</li>
+            <li>Complimentary breakfast</li>
+          </ul>
+           <a href="contact.html"><button>Book Now</button></a>      
+        </div>
+      </div>
+      <div class="card">
+        <img src="suite.jpg" alt="Room Image">
+        <div class="card-body">
+          <h2>Suite</h2>
+          <p>Our spacious and elegant suites are perfect for families or guests who want a little extra comfort.</p>
+          <ul>
+            <li>2 King beds</li>
+            <li>Free Wi-Fi</li>
+            <li>Flat-screen TV</li>
+            <li>Air conditioning</li>
+            <li>Mini fridge</li>
+            <li>Bathrobe and slippers</li>
+            <li>Complimentary breakfast</li>
+            <li>Lounge area with sofa</li>
+            <li>Dining area</li>
+            <li>Ensuite bathroom with bathtub</li>
+          </ul>
+          <button   >Book Now</button>
+        </div>
+      </div>
+    </div>
+      </main>
+      <footer>
+        <p>&copy; 2023 Bing Bang Hotel. All rights reserved.</p>
+      </footer>
+    </body>
+    </html>

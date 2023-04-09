@@ -1,0 +1,102 @@
+.hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-text button {
+    padding: 10px 30px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .hero-text button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .about-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .about-text {
+    text-align: center;
+  }
+  
+  .about-text h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .services-section {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  .services-text {
+    text-align: center;
+  }
+  
+  .services-text h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .services-text p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .projects-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .projects-text {
+    text-align: center;
+  }
+  
+  .projects-text h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .projects-text p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact-section {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .contact-text {
+    text-align: center;
+  }
+  
+  .contact-text h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-text p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  

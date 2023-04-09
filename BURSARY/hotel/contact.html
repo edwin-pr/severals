@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us | Bing Bang Hotel</title>
+  <link rel="stylesheet" href="hotel.css">
+  <style>
+    *{
+        background-image: url(vector.avif);
+
+    }
+    form {
+        
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 50px;
+    }
+    label {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    input[type="text"], input[type="email"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      resize: vertical;
+    }
+    button[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+    
+ 
+  <header>
+    <h1>Welcome to Our Hotel</h1>
+    <nav>
+
+        <ul class="nav-bar">
+            <li><a class="nav-link active" href="#home">Home</a></li>
+            <li><a class="nav-link" href="ROOMS.html">Rooms</a></li>
+            <li><a class="nav-link" href="#about-us">About us</a></li>
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <li><a class="nav-link" href="contact.html">Contact us</a></li>
+         </ul>
+        <!--
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Rooms</a></li>
+            <li><a href="#">Amenities</a></li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+       -->
+    </nav>
+</header>
+ <h1>Contact Us</h1>
+
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name" required>
+    
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email" required>
+    
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+    
+    <button type="submit">Submit</button>
+  </form>
+  
+  <script>
+    const form = document.querySelector('form');
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      
+      const name = form.querySelector('#name').value;
+      const email = form.querySelector('#email').value;
+      const message = form.querySelector('#message').value;
+      
+      // Do something with the form data, e.g. send an email or store in a database
+      console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
+      
+      // Clear the form
+      form.reset();
+      
+      // Show a confirmation message
+      alert('Thank you for contacting us!');
+    });
+  </script>
+</body>
+</html>
